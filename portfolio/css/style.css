@@ -158,6 +158,7 @@ li {
   line-height: 1.2;
   margin-bottom: 5px;
   letter-spacing: .1em;
+  background-color: rgb(255, 47, 47);
 }
 .main-visual-subtitle {
   font-size: 20px;
@@ -182,7 +183,12 @@ li {
 }
 .main-visual-text {
   flex: 1;
+  background: #a3a3a3;
+  transition: transform 0.5s ease-in-out 0s;
+  padding: 5px;
 }
+.main-visual-text:hover { transform: scale(1.5);}
+
 .main-visual-text p:not(:last-child) {
   margin-bottom: 30px;
 }
